@@ -1,0 +1,24 @@
+{
+  "name": "Cirota Tiffin Subscription",
+  "short_name": "Cirota",
+  "description": "Daily fresh home-cooked tiffin subscription service in Ranchi",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F3E8F7",
+  "theme_color": "#4A1D6E",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

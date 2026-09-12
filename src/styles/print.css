@@ -1,0 +1,73 @@
+/* Print Stylesheet for Kitchen Prep Summary (§5 item 5) */
+@media print {
+  body {
+    background: #FFFFFF !important;
+    color: #000000 !important;
+    background-image: none !important;
+    font-size: 14pt !important;
+  }
+
+  .app-header,
+  .dev-hostname-bar,
+  .btn,
+  .nav-actions,
+  .modal-overlay,
+  .toast-container,
+  .no-print {
+    display: none !important;
+  }
+
+  .app-main {
+    max-width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  .kitchen-print-header {
+    display: block !important;
+    border-bottom: 3px solid #000;
+    padding-bottom: 12px;
+    margin-bottom: 24px;
+    text-align: center;
+  }
+
+  .kitchen-print-header h1 {
+    font-size: 28pt !important;
+    color: #000 !important;
+    margin-bottom: 4px;
+  }
+
+  .kitchen-summary-grid {
+    display: block !important;
+  }
+
+  .kitchen-meal-block {
+    page-break-inside: avoid;
+    border: 2px solid #000 !important;
+    margin-bottom: 20px !important;
+    padding: 16px !important;
+    box-shadow: none !important;
+  }
+
+  .kitchen-meal-title {
+    font-size: 20pt !important;
+    color: #000 !important;
+    border-bottom: 2px solid #000 !important;
+  }
+
+  .kitchen-count-row {
+    font-size: 16pt !important;
+    border-bottom: 1px solid #666 !important;
+    padding: 8px 0 !important;
+  }
+
+  .kitchen-count-number {
+    font-size: 22pt !important;
+    color: #000 !important;
+    font-weight: 900 !important;
+  }
+}
+
+.kitchen-print-header {
+  display: none;
+}

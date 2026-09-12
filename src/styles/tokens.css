@@ -1,0 +1,49 @@
+/* Cirota Brand Design Tokens */
+:root {
+  /* Brand Color Palette */
+  --color-primary: #4A1D6E;        /* Deep Violet/Purple */
+  --color-primary-light: #6A2F99;  /* Lighter Violet */
+  --color-primary-dark: #32114C;   /* Dark Violet */
+  --color-accent: #C0388C;         /* Accent Magenta/Pink */
+  --color-accent-hover: #A32973;   /* Deep Magenta */
+  --color-accent-soft: #F9E2F0;    /* Soft Magenta Tint */
+  --color-bg: #F3E8F7;            /* Lavender / Soft Pink Page BG */
+  --color-surface: #FFFFFF;       /* Card / Surface White */
+  --color-surface-translucent: rgba(255, 255, 255, 0.92);
+  --color-gold: #F5B400;          /* Gold / Amber Star Accent */
+  --color-gold-soft: #FEF6E0;     /* Soft Gold Tint */
+  --color-success: #2E7D32;       /* Success Green */
+  --color-success-soft: #E8F5E9;  /* Soft Green Tint */
+  --color-danger: #C0392B;        /* Alert / Danger Red */
+  --color-danger-soft: #FDEDEC;   /* Soft Danger Tint */
+  --color-warning: #E67E22;       /* Warning Orange */
+  
+  /* Text & Neutral Colors */
+  --color-text: #2B1338;          /* Primary Text */
+  --color-text-muted: #6B5876;    /* Muted Text */
+  --color-text-light: #9B8AA6;    /* Light Neutral Text */
+  --color-border: #E5D5EC;        /* Border color */
+  --color-border-dotted: #4A1D6E; /* Brand Dotted Border */
+
+  /* Typography */
+  --font-heading: 'Poppins', sans-serif;
+  --font-body: 'Inter', system-ui, -apple-system, sans-serif;
+
+  /* Elevation & Shadows */
+  --shadow-sm: 0 2px 8px rgba(74, 29, 110, 0.06);
+  --shadow-md: 0 6px 20px rgba(74, 29, 110, 0.10);
+  --shadow-lg: 0 12px 32px rgba(74, 29, 110, 0.16);
+  --shadow-float: 0 16px 40px rgba(192, 56, 140, 0.20);
+
+  /* Radii */
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-card: 16px;
+  --radius-lg: 24px;
+  --radius-full: 9999px;
+
+  /* Transitions */
+  --transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-normal: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-spring: 350ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
