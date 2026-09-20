@@ -2,8 +2,9 @@
  * Cirota Customer App Configuration
  */
 export const CONFIG = {
-  USE_MOCKS: false,
-  BASE_URL: 'https://cirota-backend-production.up.railway.app/api',
+  USE_MOCKS: false,                        // Set to false when connecting to deployed backend
+  BASE_URL: 'https://cirota-backend-production.up.railway.app/api',  // Backend API URL (override for deployed Railway URL)
+  RAZORPAY_KEY_ID: 'rzp_test_cirota12345',// Razorpay Key ID (safe for client-side)
 
   // How often the tracking screen re-checks the rider's live location (ms)
   TRACKING_POLL_INTERVAL_MS: 15000,
